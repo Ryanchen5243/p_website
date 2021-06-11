@@ -1,0 +1,66 @@
+body {
+  padding: 100px;
+}
+
+h1, h4, hr {
+  margin: 0px;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 131px;
+}
+
+h4 {
+  font-family: Segoe Script;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 49px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 5px solid #000000;
+  height: 0px;
+  width: 730.0020141601562px;
+}
+
+.social-icons {
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin, .fa-facebook, .fa-github, .fa-spotify {
+  background: #ffffff;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.fa-facebook { color: #3B5998; }
+.fa-spotify { color: #1DB954; }
+.fa-linkedin { color: #0077b5; }
+.fa-github { color: #211F1F; }
+
+@media (min-width: 768px) {
+  .container {
+    /* border: 3px solid #000000; */
+    min-height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
